@@ -1,0 +1,6 @@
+hub pancreatic_atac
+shortLabel Pancreatic ATAC-seq
+longLabel Pancreatic Cell Type ATAC-seq Data from HPAP
+genomesFile genomes.txt
+email data@vanderbilt.edu
+descriptionUrl description.html
