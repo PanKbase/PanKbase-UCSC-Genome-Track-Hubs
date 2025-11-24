@@ -1,6 +1,6 @@
 hub pancreatic_atac
-shortLabel Pancreatic ATAC-seq
-longLabel Pancreatic Cell Type ATAC-seq Data from HPAP
+shortLabel snATAC-seq endocrine pancreas
+longLabel Single nucleus chromatin accessibility patterns across different pancreatic endocrine cell types
 genomesFile genomes.txt
-email data@vanderbilt.edu
+email help@pankbase.org?PanKbase-UCSC-Genome-Track-Hubs
 descriptionUrl description.html

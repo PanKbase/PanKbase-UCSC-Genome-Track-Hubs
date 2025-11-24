@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pancreatic Cell Type ATAC-seq Data</title>
+    <title>PanKbase - Single nucleus-derived chromatin accessibility map of human pancreatic islets</title>
 </head>
 <body>
-    <h1>Pancreatic Cell Type ATAC-seq Data</h1>
+    <h1>PanKbase - Single nucleus-derived chromatin accessibility map of human pancreatic islets</h1>
     
-    <h2>Description</h2>
-    <p>This track hub contains ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) data from various pancreatic cell types. The data appears to be from the Human Pancreas Analysis Program (HPAP).</p>
+    <p>Hub generated on 2025-11-24</p>
+    <p>Contact <a href="mailto:help@pankbase.org?PanKbase-UCSC-Genome-Track-Hubs">help@pankbase.org</a> for questions</p>
+
+    <h2>Explore chromatin accessibility patterns across different pancreatic cell types</h2>
+    <p>
+        <ul>
+            <li>Reference map of islet cell type-specific chromatin accessibility from 97,659 cells derived from single nucleus ATAC-seq assays of 41 non-diabetic;T1D autoantibody positive (Aab+);T1D;and T2D donors from the Human Pancreas Analysis Program (HPAP)</li>
+            <li>Includes 12 distinct pancreatic cell types</li>
+            <li>Signal/coverage tracks (BigWig) - continuous ATAC-seq signal intensity</li>
+            <li>Peak tracks (BED) - discrete regions of open chromatin (peaks)</li>
+            <li>Resource URL: <a href="https://data.pankbase.org/analysis-sets/PKBDS0470WCHR/">https://data.pankbase.org/analysis-sets/PKBDS0470WCHR/</a></li>
+        </ul>
+    </p>
     
-    <h2>Cell Types Included</h2>
+    <h2>Cell types by tracks:</h2>
     <ul>
         <li><strong>A_Stellate:</strong> Activated stellate cells</li>
         <li><strong>Acinar:</strong> Acinar cells (enzyme-producing)</li>
@@ -24,18 +35,6 @@
         <li><strong>Q_Stellate:</strong> Quiescent stellate cells</li>
         <li><strong>Schwann:</strong> Schwann cells</li>
     </ul>
-    
-    <h2>Track Types</h2>
-    <p>For each cell type, there are two tracks:</p>
-    <ul>
-        <li><strong>Signal tracks (BigWig):</strong> Show the continuous ATAC-seq signal intensity</li>
-        <li><strong>Peak tracks (BED):</strong> Show discrete regions of open chromatin (peaks)</li>
-    </ul>
-    
-    <h2>Data Source</h2>
-    <p>Data is hosted on AWS S3 and appears to be part of the Human Pancreas Analysis Program (HPAP) consortium.</p>
-    
-    <h2>Usage</h2>
-    <p>Use these tracks to explore chromatin accessibility patterns across different pancreatic cell types. Signal tracks show the intensity of accessibility, while peak tracks highlight specific regulatory regions.</p>
+
 </body>
 </html>

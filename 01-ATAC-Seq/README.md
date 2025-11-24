@@ -1,6 +1,12 @@
 # UCSC Track Hub Setup Instructions
 
+Setup at UCSC Genome Browser
+
+1. Created hg38 session - https://genome.ucsc.edu/s/cds/PanKbase_snATAC_20251124
+2. https://pankbase.github.io/PanKbase-UCSC-Genome-Track-Hubs/01-ATAC-Seq/hub.txt
+
 ## Files Created
+
 - `hub.txt` - Main hub configuration file
 - `genomes.txt` - Specifies genome assemblies supported
 - `hg38/trackDb.txt` - Track definitions for human genome hg38
