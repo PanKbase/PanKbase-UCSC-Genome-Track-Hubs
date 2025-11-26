@@ -1,0 +1,226 @@
+track pancreatic_atac
+compositeTrack on
+shortLabel Pancreatic ATAC
+longLabel Pancreatic Cell Type ATAC-seq Data
+type bigWig
+visibility full
+autoScale on
+dragAndDrop subTracks
+allButtonPair on
+centerLabelsDense on
+
+    track a_stellate_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/A_Stellate.scale_1e6.bw
+    shortLabel A_Stellate Signal
+    longLabel A_Stellate ATAC Signal
+    type bigWig
+    color 183,142,102
+    priority 1
+
+    track a_stellate_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/A_Stellate_union_overlap_calledpeak.sorted.bigBed
+    shortLabel A_Stellate Peaks
+    longLabel A_Stellate ATAC Peaks
+    type bed
+    color 183,142,102
+    priority 2
+
+    track acinar_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Acinar.scale_1e6.bw
+    shortLabel Acinar Signal
+    longLabel Acinar ATAC Signal
+    type bigWig
+    color 9,133,11
+    priority 3
+
+    track acinar_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Acinar_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Acinar Peaks
+    longLabel Acinar ATAC Peaks
+    type bed
+    color 9,133,11
+    priority 4
+
+    track alpha_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Alpha.scale_1e6.bw
+    shortLabel Alpha Signal
+    longLabel Alpha ATAC Signal
+    type bigWig
+    color 245,22,70
+    priority 5
+
+    track alpha_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Alpha_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Alpha Peaks
+    longLabel Alpha ATAC Peaks
+    type bed
+    color 245,22,70
+    priority 6
+
+    track beta_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Beta.scale_1e6.bw
+    shortLabel Beta Signal
+    longLabel Beta ATAC Signal
+    type bigWig
+    color 63,152,224
+    priority 7
+
+    track beta_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Beta_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Beta Peaks
+    longLabel Beta ATAC Peaks
+    type bed
+    color 63,152,224
+    priority 8
+
+    track delta_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Delta.scale_1e6.bw
+    shortLabel Delta Signal
+    longLabel Delta ATAC Signal
+    type bigWig
+    color 255,169,70
+    priority 9
+
+    track delta_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Delta_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Delta Peaks
+    longLabel Delta ATAC Peaks
+    type bed
+    color 255,169,70
+    priority 10
+
+    track ductal_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Ductal.scale_1e6.bw
+    shortLabel Ductal Signal
+    longLabel Ductal ATAC Signal
+    type bigWig
+    color 245,222,108
+    priority 11
+
+    track ductal_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Ductal_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Ductal Peaks
+    longLabel Ductal ATAC Peaks
+    type bed
+    color 245,222,108
+    priority 12
+
+    track endothelial_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Endothelial.scale_1e6.bw
+    shortLabel Endothelial Signal
+    longLabel Endothelial ATAC Signal
+    type bigWig
+    color 117,43,186
+    priority 13
+
+    track endothelial_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Endothelial_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Endothelial Peaks
+    longLabel Endothelial ATAC Peaks
+    type bed
+    color 117,43,186
+    priority 14
+
+    track gamma_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Gamma.scale_1e6.bw
+    shortLabel Gamma Signal
+    longLabel Gamma ATAC Signal
+    type bigWig
+    color 161,217,155
+    priority 15
+
+    track gamma_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Gamma_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Gamma Peaks
+    longLabel Gamma ATAC Peaks
+    type bed
+    color 161,217,155
+    priority 16
+
+    track immune_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Immune.scale_1e6.bw
+    shortLabel Immune Signal
+    longLabel Immune ATAC Signal
+    type bigWig
+    color 245,152,201
+    priority 17
+
+    track immune_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Immune_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Immune Peaks
+    longLabel Immune ATAC Peaks
+    type bed
+    color 245,152,201
+    priority 18
+
+    track muc5b_ductal_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/MUC5B_Ductal.scale_1e6.bw
+    shortLabel MUC5B_Ductal Signal
+    longLabel MUC5B_Ductal ATAC Signal
+    type bigWig
+    color 214,104,83
+    priority 19
+
+    track muc5b_ductal_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/MUC5B_Ductal_union_overlap_calledpeak.sorted.bigBed
+    shortLabel MUC5B_Ductal Peaks
+    longLabel MUC5B_Ductal ATAC Peaks
+    type bed
+    color 214,104,83
+    priority 20
+
+    track q_stellate_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Q_Stellate.scale_1e6.bw
+    shortLabel Q_Stellate Signal
+    longLabel Q_Stellate ATAC Signal
+    type bigWig
+    color 88,62,35
+    priority 21
+
+    track q_stellate_peaks
+    parent pancreatic_atac on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Q_Stellate_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Q_Stellate Peaks
+    longLabel Q_Stellate ATAC Peaks
+    type bed
+    color 88,62,35
+    priority 22
+
+    track schwann_signal
+    parent pancreatic_atac on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Schwann.scale_1e6.bw
+    shortLabel Schwann Signal
+    longLabel Schwann ATAC Signal
+    type bigWig
+    color 147,215,205
+    priority 23
+
+    track schwann_peaks
+    parent pancreatic_atac on
+    bigDataUrl hhttps://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Schwann_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Schwann Peaks
+    longLabel Schwann ATAC Peaks
+    type bed
+    color 147,215,205
+    priority 24

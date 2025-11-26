@@ -2,8 +2,12 @@
 
 Setup at UCSC Genome Browser
 
-1. Created hg38 session - https://genome.ucsc.edu/s/cds/PanKbase_snATAC_20251124
-2. https://pankbase.github.io/PanKbase-UCSC-Genome-Track-Hubs/01-ATAC-Seq/hub.txt
+1. Create new (hg38) session and save it with a new session name. URL: https://genome.ucsc.edu/s/cds/PanKbase_snATAC_20251124
+2. Test hub via My Data > Track Hubs > Hub Development
+3. Add hub via My Data > Track Hubs > Connected Hubs > https://pankbase.github.io/PanKbase-UCSC-Genome-Track-Hubs/01-ATAC-Seq/hub.txt
+4. Customize tracks
+5. Re-save session
+6. Share URL 
 
 ## Files Created
 
@@ -22,7 +26,7 @@ Setup at UCSC Genome Browser
    ├── genomes.txt
    ├── description.html
    └── hg38/
-       └── trackDb.txt
+       └── trackDb_OR_OTHER.txt
    ```
 
 2. **Update the hub.txt file:**
@@ -36,7 +40,7 @@ Setup at UCSC Genome Browser
    - Click "Add Hub"
 
 ## Track Organization
-- Tracks are organized alphabetically by cell type
+- Tracks are organized by cell type
 - For each cell type: Signal track appears above Peak track
 
 ## Cell Types (12 total)
@@ -55,7 +59,7 @@ Setup at UCSC Genome Browser
 
 ## Data Types
 - **BigWig files:** Continuous ATAC-seq signal (coverage)
-- **BED files:** Discrete ATAC-seq peaks (regions of open chromatin)
+- **BigBed files:** Discrete ATAC-seq peaks (regions of open chromatin) - converted with bedToBigBed (see `src/01-batch-convert-bed-to-bigbed.sh`)
 
 ## Troubleshooting
 - Ensure all files are publicly accessible via HTTP/HTTPS
