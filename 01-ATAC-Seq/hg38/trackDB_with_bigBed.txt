@@ -23,7 +23,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/A_Stellate_union_overlap_calledpeak.sorted.bigBed
     shortLabel A_Stellate Peaks
     longLabel A_Stellate ATAC Peaks
-    type bed
+    type bigBed
     color 183,142,102
     priority 2
 
@@ -41,7 +41,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Acinar_union_overlap_calledpeak.sorted.bigBed
     shortLabel Acinar Peaks
     longLabel Acinar ATAC Peaks
-    type bed
+    type bigBed
     color 9,133,11
     priority 4
 
@@ -59,7 +59,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Alpha_union_overlap_calledpeak.sorted.bigBed
     shortLabel Alpha Peaks
     longLabel Alpha ATAC Peaks
-    type bed
+    type bigBed
     color 245,22,70
     priority 6
 
@@ -77,7 +77,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Beta_union_overlap_calledpeak.sorted.bigBed
     shortLabel Beta Peaks
     longLabel Beta ATAC Peaks
-    type bed
+    type bigBed
     color 63,152,224
     priority 8
 
@@ -95,7 +95,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Delta_union_overlap_calledpeak.sorted.bigBed
     shortLabel Delta Peaks
     longLabel Delta ATAC Peaks
-    type bed
+    type bigBed
     color 255,169,70
     priority 10
 
@@ -113,7 +113,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Ductal_union_overlap_calledpeak.sorted.bigBed
     shortLabel Ductal Peaks
     longLabel Ductal ATAC Peaks
-    type bed
+    type bigBed
     color 245,222,108
     priority 12
 
@@ -131,7 +131,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Endothelial_union_overlap_calledpeak.sorted.bigBed
     shortLabel Endothelial Peaks
     longLabel Endothelial ATAC Peaks
-    type bed
+    type bigBed
     color 117,43,186
     priority 14
 
@@ -149,7 +149,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Gamma_union_overlap_calledpeak.sorted.bigBed
     shortLabel Gamma Peaks
     longLabel Gamma ATAC Peaks
-    type bed
+    type bigBed
     color 161,217,155
     priority 16
 
@@ -167,7 +167,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Immune_union_overlap_calledpeak.sorted.bigBed
     shortLabel Immune Peaks
     longLabel Immune ATAC Peaks
-    type bed
+    type bigBed
     color 245,152,201
     priority 18
 
@@ -185,7 +185,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/MUC5B_Ductal_union_overlap_calledpeak.sorted.bigBed
     shortLabel MUC5B_Ductal Peaks
     longLabel MUC5B_Ductal ATAC Peaks
-    type bed
+    type bigBed
     color 214,104,83
     priority 20
 
@@ -203,7 +203,7 @@ centerLabelsDense on
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Q_Stellate_union_overlap_calledpeak.sorted.bigBed
     shortLabel Q_Stellate Peaks
     longLabel Q_Stellate ATAC Peaks
-    type bed
+    type bigBed
     color 88,62,35
     priority 22
 
@@ -221,6 +221,6 @@ centerLabelsDense on
     bigDataUrl hhttps://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Schwann_union_overlap_calledpeak.sorted.bigBed
     shortLabel Schwann Peaks
     longLabel Schwann ATAC Peaks
-    type bed
+    type bigBed
     color 147,215,205
     priority 24
