@@ -218,7 +218,7 @@ centerLabelsDense on
 
     track schwann_peaks
     parent pancreatic_atac on
-    bigDataUrl hhttps://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Schwann_union_overlap_calledpeak.sorted.bigBed
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Schwann_union_overlap_calledpeak.sorted.bigBed
     shortLabel Schwann Peaks
     longLabel Schwann ATAC Peaks
     type bigBed
