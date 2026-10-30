@@ -1,4 +1,0 @@
-name atac_ccre
-label PanKbase ATAC + cCRE-gene links
-priority 1
-defaultIsClosed 0
