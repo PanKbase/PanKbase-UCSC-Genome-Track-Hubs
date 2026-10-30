@@ -3,7 +3,7 @@ compositeTrack on
 group atac_ccre
 priority 1
 shortLabel Pancreatic ATAC + cCRE-gene
-longLabel Pancreatic cell type ATAC-seq signal and ABC cCRE-gene links
+longLabel Pancreatic cell type ATAC-seq signal, peaks and ABC cCRE-gene links
 type bigWig
 visibility full
 autoScale on
@@ -20,6 +20,15 @@ centerLabelsDense on
     color 183,142,102
     priority 1
 
+    track a_stellate_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/A_Stellate_union_overlap_calledpeak.sorted.bigBed
+    shortLabel A Stellate Peaks
+    longLabel Activated Stellate ATAC Peaks
+    type bigBed
+    color 183,142,102
+    priority 2
+
     track a_stellate_abc
     parent pancreatic_atac_ccre on
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/A_Stellate_ABC.inter.bb
@@ -27,7 +36,7 @@ centerLabelsDense on
     longLabel Activated Stellate cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 2
+    priority 3
 
     track acinar_signal
     parent pancreatic_atac_ccre on
@@ -36,7 +45,16 @@ centerLabelsDense on
     longLabel Acinar ATAC Signal
     type bigWig
     color 9,133,11
-    priority 3
+    priority 4
+
+    track acinar_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Acinar_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Acinar Peaks
+    longLabel Acinar ATAC Peaks
+    type bigBed
+    color 9,133,11
+    priority 5
 
     track acinar_abc
     parent pancreatic_atac_ccre on
@@ -45,7 +63,7 @@ centerLabelsDense on
     longLabel Acinar cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 4
+    priority 6
 
     track alpha_signal
     parent pancreatic_atac_ccre on
@@ -54,7 +72,16 @@ centerLabelsDense on
     longLabel Alpha ATAC Signal
     type bigWig
     color 245,22,70
-    priority 5
+    priority 7
+
+    track alpha_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Alpha_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Alpha Peaks
+    longLabel Alpha ATAC Peaks
+    type bigBed
+    color 245,22,70
+    priority 8
 
     track alpha_abc
     parent pancreatic_atac_ccre on
@@ -63,7 +90,7 @@ centerLabelsDense on
     longLabel Alpha cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 6
+    priority 9
 
     track beta_signal
     parent pancreatic_atac_ccre on
@@ -72,7 +99,16 @@ centerLabelsDense on
     longLabel Beta ATAC Signal
     type bigWig
     color 63,152,224
-    priority 7
+    priority 10
+
+    track beta_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Beta_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Beta Peaks
+    longLabel Beta ATAC Peaks
+    type bigBed
+    color 63,152,224
+    priority 11
 
     track beta_abc
     parent pancreatic_atac_ccre on
@@ -81,7 +117,7 @@ centerLabelsDense on
     longLabel Beta cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 8
+    priority 12
 
     track delta_signal
     parent pancreatic_atac_ccre on
@@ -90,7 +126,16 @@ centerLabelsDense on
     longLabel Delta ATAC Signal
     type bigWig
     color 255,169,70
-    priority 9
+    priority 13
+
+    track delta_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Delta_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Delta Peaks
+    longLabel Delta ATAC Peaks
+    type bigBed
+    color 255,169,70
+    priority 14
 
     track delta_abc
     parent pancreatic_atac_ccre on
@@ -99,7 +144,7 @@ centerLabelsDense on
     longLabel Delta cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 10
+    priority 15
 
     track ductal_signal
     parent pancreatic_atac_ccre on
@@ -108,7 +153,16 @@ centerLabelsDense on
     longLabel Ductal ATAC Signal
     type bigWig
     color 245,222,108
-    priority 11
+    priority 16
+
+    track ductal_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Ductal_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Ductal Peaks
+    longLabel Ductal ATAC Peaks
+    type bigBed
+    color 245,222,108
+    priority 17
 
     track ductal_abc
     parent pancreatic_atac_ccre on
@@ -117,7 +171,7 @@ centerLabelsDense on
     longLabel Ductal cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 12
+    priority 18
 
     track endothelial_signal
     parent pancreatic_atac_ccre on
@@ -126,7 +180,16 @@ centerLabelsDense on
     longLabel Endothelial ATAC Signal
     type bigWig
     color 117,43,186
-    priority 13
+    priority 19
+
+    track endothelial_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Endothelial_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Endothelial Peaks
+    longLabel Endothelial ATAC Peaks
+    type bigBed
+    color 117,43,186
+    priority 20
 
     track endothelial_abc
     parent pancreatic_atac_ccre on
@@ -135,7 +198,7 @@ centerLabelsDense on
     longLabel Endothelial cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 14
+    priority 21
 
     track gamma_signal
     parent pancreatic_atac_ccre on
@@ -144,7 +207,16 @@ centerLabelsDense on
     longLabel Gamma ATAC Signal
     type bigWig
     color 161,217,155
-    priority 15
+    priority 22
+
+    track gamma_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Gamma_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Gamma Peaks
+    longLabel Gamma ATAC Peaks
+    type bigBed
+    color 161,217,155
+    priority 23
 
     track gamma_abc
     parent pancreatic_atac_ccre on
@@ -153,7 +225,7 @@ centerLabelsDense on
     longLabel Gamma cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 16
+    priority 24
 
     track immune_signal
     parent pancreatic_atac_ccre on
@@ -162,7 +234,16 @@ centerLabelsDense on
     longLabel Immune ATAC Signal
     type bigWig
     color 245,152,201
-    priority 17
+    priority 25
+
+    track immune_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Immune_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Immune Peaks
+    longLabel Immune ATAC Peaks
+    type bigBed
+    color 245,152,201
+    priority 26
 
     track immune_abc
     parent pancreatic_atac_ccre on
@@ -171,7 +252,7 @@ centerLabelsDense on
     longLabel Immune cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 18
+    priority 27
 
     track muc5b_ductal_signal
     parent pancreatic_atac_ccre on
@@ -180,7 +261,16 @@ centerLabelsDense on
     longLabel MUC5B+ Ductal ATAC Signal
     type bigWig
     color 214,104,83
-    priority 19
+    priority 28
+
+    track muc5b_ductal_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/MUC5B_Ductal_union_overlap_calledpeak.sorted.bigBed
+    shortLabel MUC5B Ductal Peaks
+    longLabel MUC5B+ Ductal ATAC Peaks
+    type bigBed
+    color 214,104,83
+    priority 29
 
     track muc5b_ductal_abc
     parent pancreatic_atac_ccre on
@@ -189,7 +279,7 @@ centerLabelsDense on
     longLabel MUC5B+ Ductal cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 20
+    priority 30
 
     track q_stellate_signal
     parent pancreatic_atac_ccre on
@@ -198,7 +288,16 @@ centerLabelsDense on
     longLabel Quiescent Stellate ATAC Signal
     type bigWig
     color 88,62,35
-    priority 21
+    priority 31
+
+    track q_stellate_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Q_Stellate_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Q Stellate Peaks
+    longLabel Quiescent Stellate ATAC Peaks
+    type bigBed
+    color 88,62,35
+    priority 32
 
     track q_stellate_abc
     parent pancreatic_atac_ccre on
@@ -207,7 +306,7 @@ centerLabelsDense on
     longLabel Quiescent Stellate cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 22
+    priority 33
 
     track schwann_signal
     parent pancreatic_atac_ccre on
@@ -216,7 +315,16 @@ centerLabelsDense on
     longLabel Schwann ATAC Signal
     type bigWig
     color 147,215,205
-    priority 23
+    priority 34
+
+    track schwann_peaks
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Schwann_union_overlap_calledpeak.sorted.bigBed
+    shortLabel Schwann Peaks
+    longLabel Schwann ATAC Peaks
+    type bigBed
+    color 147,215,205
+    priority 35
 
     track schwann_abc
     parent pancreatic_atac_ccre on
@@ -225,4 +333,4 @@ centerLabelsDense on
     longLabel Schwann cRE-gene links (ABC)
     type bigInteract
     itemRgb on
-    priority 24
+    priority 36
