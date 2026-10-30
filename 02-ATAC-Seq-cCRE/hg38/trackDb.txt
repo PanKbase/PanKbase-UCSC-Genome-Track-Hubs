@@ -1,5 +1,7 @@
 track pancreatic_atac_ccre
 compositeTrack on
+group atac_ccre
+priority 1
 shortLabel Pancreatic ATAC + cCRE-gene
 longLabel Pancreatic cell type ATAC-seq signal and ABC cCRE-gene links
 type bigWig
