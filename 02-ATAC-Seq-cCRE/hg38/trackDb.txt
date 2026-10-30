@@ -9,7 +9,6 @@ visibility full
 autoScale on
 dragAndDrop subTracks
 allButtonPair on
-centerLabelsDense on
 
     track a_stellate_signal
     parent pancreatic_atac_ccre on
