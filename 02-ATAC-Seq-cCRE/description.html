@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PanKbase - snATAC-seq candidate cis-regulatory element (cCRE) to gene links in human pancreas</title>
+</head>
+<body>
+    <h1>PanKbase - snATAC-seq cCRE-gene links in human pancreas</h1>
+
+    <p>Hub generated on 2026-10-30</p>
+    <p>Contact <a href="mailto:help@pankbase.org?PanKbase-UCSC-Genome-Track-Hubs">help@pankbase.org</a> for questions</p>
+
+    <h2>Candidate cis-regulatory element (cCRE) to gene links by cell type</h2>
+    <ul>
+        <li>Links between snATAC-seq cCREs and genes predicted with the Activity-by-Contact (ABC) model, one track per pancreatic cell type ; each cell type also shows its ATAC-seq signal (bigWig, same tracks as <a href="../01-ATAC-Seq/hub.txt">01-ATAC-Seq</a>) directly above its links</li>
+        <li>Each item is an arc from the cCRE (300 bp; class promoter, genic or intergenic) to the transcription start site of the linked gene</li>
+        <li>Item name is the gene symbol; the score is the ABC score x 1000 (capped at 1000); the full ABC score is shown on the item details page</li>
+        <li>A gene can link to many cCREs, and a cCRE to several genes</li>
+    </ul>
+
+    <h2>Cell types by tracks:</h2>
+    <ul>
+        <li><strong>Alpha, Beta, Gamma, Delta:</strong> islet endocrine cells</li>
+        <li><strong>Acinar, Ductal, MUC5B Ductal:</strong> exocrine cells</li>
+        <li><strong>A Stellate, Q Stellate:</strong> activated and quiescent stellate cells</li>
+        <li><strong>Endothelial, Immune, Schwann</strong></li>
+    </ul>
+</body>
+</html>

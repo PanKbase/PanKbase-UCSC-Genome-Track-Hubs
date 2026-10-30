@@ -1,0 +1,226 @@
+track pancreatic_atac_ccre
+compositeTrack on
+shortLabel Pancreatic ATAC + cCRE-gene
+longLabel Pancreatic cell type ATAC-seq signal and ABC cCRE-gene links
+type bigWig
+visibility full
+autoScale on
+dragAndDrop subTracks
+allButtonPair on
+centerLabelsDense on
+
+    track a_stellate_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/A_Stellate.scale_1e6.bw
+    shortLabel A Stellate Signal
+    longLabel Activated Stellate ATAC Signal
+    type bigWig
+    color 183,142,102
+    priority 1
+
+    track a_stellate_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/A_Stellate_ABC.inter.bb
+    shortLabel A Stellate ABC
+    longLabel Activated Stellate cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 2
+
+    track acinar_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Acinar.scale_1e6.bw
+    shortLabel Acinar Signal
+    longLabel Acinar ATAC Signal
+    type bigWig
+    color 9,133,11
+    priority 3
+
+    track acinar_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Acinar_ABC.inter.bb
+    shortLabel Acinar ABC
+    longLabel Acinar cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 4
+
+    track alpha_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Alpha.scale_1e6.bw
+    shortLabel Alpha Signal
+    longLabel Alpha ATAC Signal
+    type bigWig
+    color 245,22,70
+    priority 5
+
+    track alpha_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Alpha_ABC.inter.bb
+    shortLabel Alpha ABC
+    longLabel Alpha cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 6
+
+    track beta_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Beta.scale_1e6.bw
+    shortLabel Beta Signal
+    longLabel Beta ATAC Signal
+    type bigWig
+    color 63,152,224
+    priority 7
+
+    track beta_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Beta_ABC.inter.bb
+    shortLabel Beta ABC
+    longLabel Beta cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 8
+
+    track delta_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Delta.scale_1e6.bw
+    shortLabel Delta Signal
+    longLabel Delta ATAC Signal
+    type bigWig
+    color 255,169,70
+    priority 9
+
+    track delta_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Delta_ABC.inter.bb
+    shortLabel Delta ABC
+    longLabel Delta cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 10
+
+    track ductal_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Ductal.scale_1e6.bw
+    shortLabel Ductal Signal
+    longLabel Ductal ATAC Signal
+    type bigWig
+    color 245,222,108
+    priority 11
+
+    track ductal_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Ductal_ABC.inter.bb
+    shortLabel Ductal ABC
+    longLabel Ductal cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 12
+
+    track endothelial_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Endothelial.scale_1e6.bw
+    shortLabel Endothelial Signal
+    longLabel Endothelial ATAC Signal
+    type bigWig
+    color 117,43,186
+    priority 13
+
+    track endothelial_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Endothelial_ABC.inter.bb
+    shortLabel Endothelial ABC
+    longLabel Endothelial cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 14
+
+    track gamma_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Gamma.scale_1e6.bw
+    shortLabel Gamma Signal
+    longLabel Gamma ATAC Signal
+    type bigWig
+    color 161,217,155
+    priority 15
+
+    track gamma_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Gamma_ABC.inter.bb
+    shortLabel Gamma ABC
+    longLabel Gamma cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 16
+
+    track immune_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Immune.scale_1e6.bw
+    shortLabel Immune Signal
+    longLabel Immune ATAC Signal
+    type bigWig
+    color 245,152,201
+    priority 17
+
+    track immune_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Immune_ABC.inter.bb
+    shortLabel Immune ABC
+    longLabel Immune cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 18
+
+    track muc5b_ductal_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/MUC5B_Ductal.scale_1e6.bw
+    shortLabel MUC5B Ductal Signal
+    longLabel MUC5B+ Ductal ATAC Signal
+    type bigWig
+    color 214,104,83
+    priority 19
+
+    track muc5b_ductal_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/MUC5B_Ductal_ABC.inter.bb
+    shortLabel MUC5B Ductal ABC
+    longLabel MUC5B+ Ductal cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 20
+
+    track q_stellate_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Q_Stellate.scale_1e6.bw
+    shortLabel Q Stellate Signal
+    longLabel Quiescent Stellate ATAC Signal
+    type bigWig
+    color 88,62,35
+    priority 21
+
+    track q_stellate_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Q_Stellate_ABC.inter.bb
+    shortLabel Q Stellate ABC
+    longLabel Quiescent Stellate cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 22
+
+    track schwann_signal
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Schwann.scale_1e6.bw
+    shortLabel Schwann Signal
+    longLabel Schwann ATAC Signal
+    type bigWig
+    color 147,215,205
+    priority 23
+
+    track schwann_abc
+    parent pancreatic_atac_ccre on
+    bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Schwann_ABC.inter.bb
+    shortLabel Schwann ABC
+    longLabel Schwann cRE-gene links (ABC)
+    type bigInteract
+    itemRgb on
+    priority 24

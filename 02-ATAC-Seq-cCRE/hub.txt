@@ -1,0 +1,6 @@
+hub pancreatic_atac_ccre
+shortLabel snATAC-seq cCRE-gene links
+longLabel ABC cCRE-gene links across pancreatic cell types, derived from snATAC-seq
+genomesFile genomes.txt
+email help@pankbase.org?PanKbase-UCSC-Genome-Track-Hubs
+descriptionUrl description.html
