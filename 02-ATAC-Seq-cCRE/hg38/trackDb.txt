@@ -1,6 +1,5 @@
 track pancreatic_atac_ccre
 compositeTrack on
-group atac_ccre
 priority 1
 shortLabel Pancreatic ATAC + cCRE-gene
 longLabel Pancreatic cell type ATAC-seq signal, peaks and ABC cCRE-gene links
@@ -13,7 +12,6 @@ centerLabelsDense on
 
     track a_stellate_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/A_Stellate.scale_1e6.bw
     shortLabel A Stellate Signal
     longLabel Activated Stellate ATAC Signal
@@ -23,7 +21,6 @@ centerLabelsDense on
 
     track a_stellate_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/A_Stellate_union_overlap_calledpeak.sorted.bigBed
     shortLabel A Stellate Peaks
     longLabel Activated Stellate ATAC Peaks
@@ -33,7 +30,6 @@ centerLabelsDense on
 
     track a_stellate_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/A_Stellate_ABC.inter.bb
     shortLabel A Stellate ABC
     longLabel Activated Stellate cRE-gene links (ABC)
@@ -43,7 +39,6 @@ centerLabelsDense on
 
     track acinar_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Acinar.scale_1e6.bw
     shortLabel Acinar Signal
     longLabel Acinar ATAC Signal
@@ -53,7 +48,6 @@ centerLabelsDense on
 
     track acinar_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Acinar_union_overlap_calledpeak.sorted.bigBed
     shortLabel Acinar Peaks
     longLabel Acinar ATAC Peaks
@@ -63,7 +57,6 @@ centerLabelsDense on
 
     track acinar_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Acinar_ABC.inter.bb
     shortLabel Acinar ABC
     longLabel Acinar cRE-gene links (ABC)
@@ -73,7 +66,6 @@ centerLabelsDense on
 
     track alpha_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Alpha.scale_1e6.bw
     shortLabel Alpha Signal
     longLabel Alpha ATAC Signal
@@ -83,7 +75,6 @@ centerLabelsDense on
 
     track alpha_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Alpha_union_overlap_calledpeak.sorted.bigBed
     shortLabel Alpha Peaks
     longLabel Alpha ATAC Peaks
@@ -93,7 +84,6 @@ centerLabelsDense on
 
     track alpha_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Alpha_ABC.inter.bb
     shortLabel Alpha ABC
     longLabel Alpha cRE-gene links (ABC)
@@ -103,7 +93,6 @@ centerLabelsDense on
 
     track beta_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Beta.scale_1e6.bw
     shortLabel Beta Signal
     longLabel Beta ATAC Signal
@@ -113,7 +102,6 @@ centerLabelsDense on
 
     track beta_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Beta_union_overlap_calledpeak.sorted.bigBed
     shortLabel Beta Peaks
     longLabel Beta ATAC Peaks
@@ -123,7 +111,6 @@ centerLabelsDense on
 
     track beta_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Beta_ABC.inter.bb
     shortLabel Beta ABC
     longLabel Beta cRE-gene links (ABC)
@@ -133,7 +120,6 @@ centerLabelsDense on
 
     track delta_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Delta.scale_1e6.bw
     shortLabel Delta Signal
     longLabel Delta ATAC Signal
@@ -143,7 +129,6 @@ centerLabelsDense on
 
     track delta_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Delta_union_overlap_calledpeak.sorted.bigBed
     shortLabel Delta Peaks
     longLabel Delta ATAC Peaks
@@ -153,7 +138,6 @@ centerLabelsDense on
 
     track delta_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Delta_ABC.inter.bb
     shortLabel Delta ABC
     longLabel Delta cRE-gene links (ABC)
@@ -163,7 +147,6 @@ centerLabelsDense on
 
     track ductal_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Ductal.scale_1e6.bw
     shortLabel Ductal Signal
     longLabel Ductal ATAC Signal
@@ -173,7 +156,6 @@ centerLabelsDense on
 
     track ductal_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Ductal_union_overlap_calledpeak.sorted.bigBed
     shortLabel Ductal Peaks
     longLabel Ductal ATAC Peaks
@@ -183,7 +165,6 @@ centerLabelsDense on
 
     track ductal_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Ductal_ABC.inter.bb
     shortLabel Ductal ABC
     longLabel Ductal cRE-gene links (ABC)
@@ -193,7 +174,6 @@ centerLabelsDense on
 
     track endothelial_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Endothelial.scale_1e6.bw
     shortLabel Endothelial Signal
     longLabel Endothelial ATAC Signal
@@ -203,7 +183,6 @@ centerLabelsDense on
 
     track endothelial_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Endothelial_union_overlap_calledpeak.sorted.bigBed
     shortLabel Endothelial Peaks
     longLabel Endothelial ATAC Peaks
@@ -213,7 +192,6 @@ centerLabelsDense on
 
     track endothelial_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Endothelial_ABC.inter.bb
     shortLabel Endothelial ABC
     longLabel Endothelial cRE-gene links (ABC)
@@ -223,7 +201,6 @@ centerLabelsDense on
 
     track gamma_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Gamma.scale_1e6.bw
     shortLabel Gamma Signal
     longLabel Gamma ATAC Signal
@@ -233,7 +210,6 @@ centerLabelsDense on
 
     track gamma_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Gamma_union_overlap_calledpeak.sorted.bigBed
     shortLabel Gamma Peaks
     longLabel Gamma ATAC Peaks
@@ -243,7 +219,6 @@ centerLabelsDense on
 
     track gamma_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Gamma_ABC.inter.bb
     shortLabel Gamma ABC
     longLabel Gamma cRE-gene links (ABC)
@@ -253,7 +228,6 @@ centerLabelsDense on
 
     track immune_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Immune.scale_1e6.bw
     shortLabel Immune Signal
     longLabel Immune ATAC Signal
@@ -263,7 +237,6 @@ centerLabelsDense on
 
     track immune_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Immune_union_overlap_calledpeak.sorted.bigBed
     shortLabel Immune Peaks
     longLabel Immune ATAC Peaks
@@ -273,7 +246,6 @@ centerLabelsDense on
 
     track immune_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Immune_ABC.inter.bb
     shortLabel Immune ABC
     longLabel Immune cRE-gene links (ABC)
@@ -283,7 +255,6 @@ centerLabelsDense on
 
     track muc5b_ductal_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/MUC5B_Ductal.scale_1e6.bw
     shortLabel MUC5B Ductal Signal
     longLabel MUC5B+ Ductal ATAC Signal
@@ -293,7 +264,6 @@ centerLabelsDense on
 
     track muc5b_ductal_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/MUC5B_Ductal_union_overlap_calledpeak.sorted.bigBed
     shortLabel MUC5B Ductal Peaks
     longLabel MUC5B+ Ductal ATAC Peaks
@@ -303,7 +273,6 @@ centerLabelsDense on
 
     track muc5b_ductal_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/MUC5B_Ductal_ABC.inter.bb
     shortLabel MUC5B Ductal ABC
     longLabel MUC5B+ Ductal cRE-gene links (ABC)
@@ -313,7 +282,6 @@ centerLabelsDense on
 
     track q_stellate_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Q_Stellate.scale_1e6.bw
     shortLabel Q Stellate Signal
     longLabel Quiescent Stellate ATAC Signal
@@ -323,7 +291,6 @@ centerLabelsDense on
 
     track q_stellate_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Q_Stellate_union_overlap_calledpeak.sorted.bigBed
     shortLabel Q Stellate Peaks
     longLabel Quiescent Stellate ATAC Peaks
@@ -333,7 +300,6 @@ centerLabelsDense on
 
     track q_stellate_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Q_Stellate_ABC.inter.bb
     shortLabel Q Stellate ABC
     longLabel Quiescent Stellate cRE-gene links (ABC)
@@ -343,7 +309,6 @@ centerLabelsDense on
 
     track schwann_signal
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://s3-us-west-2.amazonaws.com/gaulton-lab-ucsc/rlmelton/washu_epigenome_browser_hpap/Schwann.scale_1e6.bw
     shortLabel Schwann Signal
     longLabel Schwann ATAC Signal
@@ -353,7 +318,6 @@ centerLabelsDense on
 
     track schwann_peaks
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://cds-general-public.s3.us-east-1.amazonaws.com/pankbase_atacseq_ucsc_tracks_2025126/Schwann_union_overlap_calledpeak.sorted.bigBed
     shortLabel Schwann Peaks
     longLabel Schwann ATAC Peaks
@@ -363,7 +327,6 @@ centerLabelsDense on
 
     track schwann_abc
     parent pancreatic_atac_ccre on
-    group atac_ccre
     bigDataUrl https://pankbase-data-v1.s3.us-west-2.amazonaws.com/genome-browser/Schwann_ABC.inter.bb
     shortLabel Schwann ABC
     longLabel Schwann cRE-gene links (ABC)
